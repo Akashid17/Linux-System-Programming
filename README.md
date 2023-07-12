@@ -19,4 +19,6 @@ FileSystem14.c This application will open file in read mode and print data using
 
 FileSystem15.c This application will accept two file names as input from user using command line argument, first file name will be source file and another file will be destination file, application will copy data from source file and will pest it in destination file. 
 
-FileSystem16.c This is application will show inode table infromation about any file.
+FileSystem16.c This application will show inode table infromation about any file, it call stat function and accept file name and object address as input.
+
+FileSystem17.c This application will work same as FileSystem16, difference here is, it call fstat function and accept file descriptor and object address as input.
