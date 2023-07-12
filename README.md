@@ -14,3 +14,5 @@ FileSystem11.c is application which will open and read file using open and read 
 FileSystem12.c is application which will open and read file using open and read function and will print data from that file, this application will accept input as file name and buffer size to fetch data.
 
 FileSystem13.c This is application is similar to FileSystem12.c, to print data write function has used insted of print function.
+
+FileSystem14.c This application will open file in read mode and print data using write system call. to print data i used predefine buffer of 1024 bytes. using predefine buffer and while loop, application will print entire data from file.
