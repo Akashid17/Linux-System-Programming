@@ -12,3 +12,5 @@ FileSystem10.c is application which will create new file with read and write per
 FileSystem11.c is application which will open and read file using open and read function and will print first 10 character, for that it will take input from user using command line argument.
 
 FileSystem12.c is application which will open and read file using open and read function and will print data from that file, this application will accept input as file name and buffer size to fetch data.
+
+FileSystem13.c This is application is similar to FileSystem12.c, to print data write function has used insted of print function.
