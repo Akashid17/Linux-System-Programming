@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-	struct stat sobj;
+	struct stat sobj;			//object of stat system call
 
 	if(argc != 2)
 	{
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 		return -1;
 	}
 
-	stat(argv[1],&sobj);
+	stat(argv[1],&sobj);		//function accept file and object address.
 
 	printf("File name : %s\n",argv[1]);
 	printf("File size is %d\n",sobj.st_size);
