@@ -24,3 +24,5 @@ FileSystem16.c This application will show inode table infromation about any file
 FileSystem17.c This application will work same as FileSystem16, difference here is, it call fstat function and accept file descriptor and object address as input.
 
 FileSystem18.c This application will show file Type, it will accept file name or directory name as input using command line argument.
+
+FileSystem19.c This application will show file name and inode number of that file from directory, it will accept directory name as input from command line argument.
