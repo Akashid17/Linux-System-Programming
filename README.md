@@ -17,4 +17,6 @@ FileSystem13.c This is application is similar to FileSystem12.c, to print data w
 
 FileSystem14.c This application will open file in read mode and print data using write system call. to print data i used predefine buffer of 1024 bytes. using predefine buffer and while loop, application will print entire data from file.
 
-FileSystem15.c This is application will accept two file names as input from user using command line argument, first file name will be source file and another file will be destination file, application will copy data from source file and will pest it in destination file. 
+FileSystem15.c This application will accept two file names as input from user using command line argument, first file name will be source file and another file will be destination file, application will copy data from source file and will pest it in destination file. 
+
+FileSystem16.c This is application will show inode table infromation about any file.
