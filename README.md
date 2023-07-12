@@ -22,3 +22,5 @@ FileSystem15.c This application will accept two file names as input from user us
 FileSystem16.c This application will show inode table infromation about any file, it call stat function and accept file name and object address as input.
 
 FileSystem17.c This application will work same as FileSystem16, difference here is, it call fstat function and accept file descriptor and object address as input.
+
+FileSystem18.c This application will show file Type, it will accept file name or directory name as input using command line argument.
